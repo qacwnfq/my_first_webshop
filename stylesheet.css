@@ -1,0 +1,205 @@
+table, th, td {
+    border-collapse: collapse;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;	
+}
+
+* {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+tr {
+    border: 1px solid lightgray;
+}
+
+
+.bold {
+    font-weight: 900;
+    text-align: center;	
+}
+
+.bold.left
+ {
+    text-align: left;
+}
+
+.bold.detailsName {
+    color: white;
+    background-color: indigo;
+}
+
+.bold.articlesCaption {
+    color: dimgray;
+}
+
+.bold.detailsCaption {
+    color: indigo;
+}
+
+.bold.cartCaption {
+    color: green;
+}
+
+.img {
+    max-width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.table-header {
+    color: white;
+}
+
+.table-header.articles {
+    background-color: dimgray;
+}
+
+.table-header.cart {
+    background-color: green;
+}
+
+.table-header.details {
+    background-color: indigo;
+}
+
+.search-form {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.search-form {
+    margin: auto;
+    display: block;
+}
+
+.div.top {
+    border: 3px solid indigo;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+#main {
+    border: 5px solid darkgray;
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.div.parts {
+    display: inline-block;
+    width: 33%;
+    max-width: 33%;
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    clear: none;
+}
+
+.div.parts.box {
+    border-style: solid;
+    display: inline-block;
+    width: 90%;
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.div.box.articles {
+    border-color: dimgray;
+}
+
+.div.parts.box.details
+ {
+    border-color: indigo;
+}
+
+.div.parts.box.cart
+ {
+    border-color: green;
+}
+
+
+.empty-cart {
+    color: red;
+    text-align: center;
+}
+
+.div.buttons {
+    clear: left;
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 10%;
+    width: 90%;
+    max-width: 90%;
+}
+
+.button {
+    clear: left;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.button.add-to-cart.active {
+    background-color: indigo;
+    color: white;
+}
+
+
+.button.order.active {
+    background-color: green;
+    color: white;
+}
+
+.subtotal
+ {
+    background-color: greenyellow;
+    color: green;
+    fontweight: 900;
+    text-align: center;
+}
+
+.article {
+    color: black;
+    background-color: white;
+    font-weight: normal;
+}
+
+.current-article {
+    color: indigo;
+    background-color: orange;
+    font-weight: 900;
+}
+
+.article:hover {
+    background-color: darkorange;
+}
+
+.current-article:hover {
+    background-color: indigo;
+    color: darkorange;
+}
+
+.quantityBtn
+ {
+    margin-right: 0;
+    vertical-align: top;
+    display: block;
+    width: 25px;
+}
