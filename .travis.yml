@@ -5,6 +5,9 @@ before_script:
 - sleep 3
 - "node server.js&"
 - "npm install auditjs --save-dev"
+- sleep 3
+- rackup
+- sleep 3
 
 script:
 - "./node_modules/auditjs/audit.js -p package.json -n"
