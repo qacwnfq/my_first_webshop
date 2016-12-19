@@ -9,4 +9,6 @@ before_script:
 - sleep 5
 
 script:
+- jdk_switcher use oraclejdk8
+- sleep 2
 - "npm test"
