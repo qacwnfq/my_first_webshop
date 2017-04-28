@@ -5,11 +5,11 @@ module.exports = {
   "output_folder": "./reports", // reports (test outcome) output by nightwatch
   "selenium": { // downloaded by selenium-download module (see readme)
     "start_process": true, // tells nightwatch to start/stop the selenium process
-    "server_path": "./bin/selenium.jar",
+    "server_path": "node_modules/selenium-server/lib/runner/selenium-server-standalone-3.1.0.jar",
     "host": "127.0.0.1",
     "port": 4444, // standard selenium port
     "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
-      "webdriver.chrome.driver" : "./bin/chromedriver"
+      "webdriver.chrome.driver" : "node_modules/.bin/chromedriver"
     }
   },
   "test_settings": {
@@ -33,10 +33,3 @@ module.exports = {
     }
   }
 }
-require('selenium-download').ensure('./bin', function(error) {  
-   if (error) {
-     return console.log(error);
-   } else {
-     console.log('✔ Selenium & Chromedriver downloaded to:', './bin');
-   }
-});
