@@ -7,27 +7,28 @@
     "node": "4.4.6"
   },
   "scripts": {
-     "postinstall": "node nightwatch.conf.js",
-     "start": "node server.js",
-     "test": "node ./node_modules/auditjs/audit.js -p package.json -n && ./node_modules/nightwatch/bin/nightwatch"
+    "postinstall": "node nightwatch.conf.js",
+    "start": "node server.js",
+    "test": "node ./node_modules/auditjs/audit.js -p package.json -n && ./node_modules/nightwatch/bin/nightwatch"
   },
   "author": "Fredrik",
   "dependencies": {
+    "babel": "5.8.23",
     "express": "^4.14.0",
     "nightwatch": "^0.9.8",
     "saucelabs": "^1.3.0"
   },
-   "devDependencies": {
-      "chromedriver": "2.27.x",
-      "selenium-server": "3.1.0",
-      "auditjs": "^2.1.2",
-      "aws-sdk": "^2.6.2",
-      "env2": "^2.1.1",
-      "eslint": "^3.10.2",
-      "eslint-config-google": "^0.7.0",
-      "eslint-config-laxarjs": "^0.3.0",
-      "mime-types": "^2.1.11",
-      "nodemon": "^1.10.2"
+  "devDependencies": {
+    "chromedriver": "2.27.x",
+    "selenium-server": "3.1.0",
+    "auditjs": "^2.1.2",
+    "aws-sdk": "^2.6.2",
+    "env2": "^2.1.1",
+    "eslint": "^3.10.2",
+    "eslint-config-google": "^0.7.0",
+    "eslint-config-laxarjs": "^0.3.0",
+    "mime-types": "^2.1.11",
+    "nodemon": "^1.10.2"
   },
   "keywords": [
     "nightwatch",
