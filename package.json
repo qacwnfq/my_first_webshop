@@ -24,7 +24,7 @@
       "auditjs": "^2.1.7",
       "aws-sdk": "^2.6.2",
       "env2": "^2.1.1",
-      "eslint": "^3.10.2",
+      "eslint": "^4.8.0",
       "eslint-config-google": "^0.7.0",
       "eslint-config-laxarjs": "^0.4.0",
       "mime-types": "^2.1.11",
