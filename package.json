@@ -4,7 +4,7 @@
   "description": "Trying out nightwatch on my webshop",
   "main": "webshop.js",
   "engines": {
-    "node": "4.4.6"
+    "node": "10"
   },
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
