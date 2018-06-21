@@ -4,7 +4,7 @@
   "description": "Trying out nightwatch on my webshop",
   "main": "webshop.js",
   "engines": {
-    "node": "4.4.6"
+    "node": "10.4"
   },
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
@@ -19,16 +19,16 @@
     "saucelabs": "^1.3.0"
   },
   "devDependencies": {
-      "chromedriver": "2.27.x",
-      "selenium-server": "3.1.0",
-      "auditjs": "^2.1.7",
-      "aws-sdk": "^2.6.2",
-      "env2": "^2.1.1",
-      "eslint": "^3.10.2",
-      "eslint-config-google": "^0.7.0",
-      "eslint-config-laxarjs": "^0.4.0",
-      "mime-types": "^2.1.11",
-      "nodemon": "^1.10.2"
+    "chromedriver": "2.27.x",
+    "selenium-server": "3.1.0",
+    "auditjs": "^2.1.7",
+    "aws-sdk": "^2.6.2",
+    "env2": "^2.1.1",
+    "eslint": "^3.10.2",
+    "eslint-config-google": "^0.7.0",
+    "eslint-config-laxarjs": "^0.4.0",
+    "mime-types": "^2.1.11",
+    "nodemon": "^1.10.2"
   },
   "keywords": [
     "nightwatch",
